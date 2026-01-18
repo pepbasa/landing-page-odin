@@ -1,0 +1,36 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+div {
+    flex: auto;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.info {
+
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.call {
+
+}
+
+.footer {
+    background-color: #1F2937;
+}
+
+/* borders */
+
+div {
+    border: solid red;
+}
