@@ -11,8 +11,20 @@ div {
 
 .hero {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
 }
 
+    .hero-top, .hero-bottom {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero-bottom-left {
+        display: flex;
+        flex-direction: column;
+    }
 .info {
 
 }
