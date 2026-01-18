@@ -25,6 +25,10 @@ div {
         display: flex;
         flex-direction: column;
     }
+
+    .hero-bottom-right, .hero-bottom-left {
+        flex: 0 0 50%;
+    }
 .info {
 
 }
