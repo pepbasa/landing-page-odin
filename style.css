@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: ;
+    justify-content: space-between;
     min-height: 100vh;
     padding: 0px;
     margin: 0px
@@ -10,6 +10,14 @@ body {
 
 div {
     flex: auto;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    max-width: fit-content;
+    padding: 8px 24px;
+    text-align: center;
 }
 
 .hero {
@@ -25,16 +33,20 @@ div {
         justify-content: space-between;
         align-items: center;
         width: 100%;
+        padding: 0px;
     }
 
     .hero-top-left {
         font-size: 24px;
         color: #F9FAF8;
+        margin: 0px;
     }
 
     .hero-top-right {
         display: flex;
-        gap: 16px
+        gap: 16px;
+        margin: 0px;
+
     }
 
     ul {
@@ -45,13 +57,16 @@ div {
 
     a {
         text-decoration: none;
-        color: #E5E7EB;
+        color: #e5e7ebd8;
         font-size: 18px;
     }
 
     .hero-bottom-left {
+        max-width: 50%;
         display: flex;
         flex-direction: column;
+        flex: initial;
+        gap: 8px;
     }
 
     .hero-main {
@@ -62,7 +77,7 @@ div {
 
     .hero-secondary {
         font-size: 18px;
-        color: #E5E7EB;
+        color: #e5e7ebd8;
     }
 
     .top-button {
@@ -70,17 +85,18 @@ div {
         color: #F9FAF8;
     }
 
-    .hero-bottom-right, .hero-bottom-left {
-        flex: 0 1 50%;
+    .hero-bottom {
+        gap: 32px;
     }
 
     .hero-bottom-right {
-        object-fit: cover;
-        width: 50%;
+        width: 300px;
         height: 100%;
         padding: 0px;
-        margin: 0px
+        margin: 0px;
+        flex: initial;
     }
+
 .info {
 
 }
@@ -95,10 +111,15 @@ div {
 
 .footer {
     background-color: #1F2937;
+    font-size: 12px;
+    color: #e5e7ebd8;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* borders */
 
-div, img {
-    border: solid red;
+div, img, ul {
+    brder: solid red;
 }
