@@ -132,8 +132,34 @@ button {
         }
 
 .call {
-
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+    .blue {
+        display: flex;
+        flex-direction: space-between;
+        align-items: center;
+        padding: 24px;
+        gap: 16px;
+        background-color: #3882F6;
+        border-radius: 8px;
+        flex: initial;
+    }
+        .call-container {
+            display: flex;
+            flex-direction: column;
+            color: #F9FAF8;
+            gap: 4px;
+        }
+
+        .bottom-button {
+            background-color: #3882F6;
+            border: solid 2px #F9FAF8;
+            color: #F9FAF8;
+            
+        }
 
 .footer {
     background-color: #1F2937;
@@ -147,5 +173,5 @@ button {
 /* borders */
 
 div, img, ul, p, strong {
-    border: solid red;
+    border: soid red;
 }
