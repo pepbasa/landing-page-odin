@@ -25,6 +25,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 12px;
     padding: 32px;
 }
 
@@ -97,9 +98,37 @@ button {
         flex: initial;
     }
 
-.info {
-
+.information {
+   padding: 24px;
 }
+    .info-header {
+        font-size: 36px;
+        color: #1F2937;
+        font-weight: 900;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    .square-container {
+        display: flex;
+        gap: 12px
+    }
+
+    .square-container > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 200;
+    }
+
+    .square {
+        width: 150px;
+        height: 150px;
+        border-radius: 8px;
+        border: solid 2px #3882F6;
+    }
 
 .quote {
     background-color: #E5E7EB;
@@ -128,6 +157,7 @@ button {
             align-self: flex-end;
             justify-self: center;
             font-weight: 600;
+            color: #1F2937;
             margin: 0px;
         }
 
@@ -164,14 +194,17 @@ button {
 .footer {
     background-color: #1F2937;
     font-size: 12px;
+    font-weight: 200;
     color: #e5e7ebd8;
     display:flex;
     justify-content: center;
     align-items: center;
+    justify-self: flex-end;
+    padding: 16px;
 }
 
 /* borders */
 
 div, img, ul, p, strong {
-    border: soid red;
+    order: solid red;
 }
